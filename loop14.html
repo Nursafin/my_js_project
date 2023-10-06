@@ -8,18 +8,11 @@
 </head>
 <body>
     <script>
-
-function sum(...args){
-        let sum = 0;
-        for(arg of args){
-            sum+=arg;
+        function myfunction(fname,lname){
+            return `my firstName ${fname} and lastName ${lname}`;
         }
-    return sum;
-    }
-   let result = sum(12,34,45,3,4,5,6,7,8,9,100);
-   document.write(result);
-   
-    </script>
+        let result=myfunction("Nur","safin");
+        document.write(result);
     </script>
 </body>
 </html>
