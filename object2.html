@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+const person = {
+    Name:"NUR SAFIN",
+    Age:"11",
+    City:"Dhaka",
+    class:"4",
+    Schoolname:"DHAKA RESIDENTIAL MODEL COLLEGE",
+    ID:"M18732",
+    FavariteBike:"HYARBUSA",
+    Favaritecar:"BUGGAHTI"
+}
+let add=" "
+for(let x in person){
+    add+=person[x]+" ";
+}
+document.write(add);
+
+const person1 = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+const myArray = Object.values(person1);
+document.write(myArray);
+
+
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+
+// Create a Person object
+const myFather = new Person("john", "Doe", 50, "blue");
+document.write(myArray
+)
+
+
+</script>
+</body>
+</html>
